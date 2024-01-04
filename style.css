@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+}
+
+body {
+    margin: 10rem auto;
+    background: url(Image/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header, footer {
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    backdrop-filter: blur(20px);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+main {
+    max-width: 50rem;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+
+article {
+    border-bottom: 0.063rem solid #6e6e6e;
+    margin-bottom: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+h1 {
+    color: #fff;
+}
+
+h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.meta {
+    color: #666;
+}
+
+#new-post-section {
+    max-width: 50rem;
+    margin: 1.25rem auto;
+    padding: 3rem;
+    background-color: transparent;
+    border: 2px solid rgba(225, 225, 225, .5);
+    box-shadow: 0 0 30rpx rgba(0, 0, 0, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+}
+
+#new-post-form {
+    display: grid;
+    gap: 1.2rem;
+}
+
+input {
+    position: relative;
+    border-bottom: 2px solid #162938;
+    background: transparent;
+    font-size: 2rem;
+}
+
+#new-post-form label, textarea {
+    font-weight: bold;
+    resize: none;
+}
+
+label {
+    font-size: 1.5rem;
+}
+
+textarea {
+    position: relative;
+    border-bottom: 2px solid #162938;
+    background: transparent;
+    font-size: 1.2rem;
+    padding-bottom: 5rem;
+}
+
+button {
+    height: 5rem;
+    background: #162938;
+    border: none;
+    outline: none;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
